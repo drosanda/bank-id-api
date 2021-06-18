@@ -9,7 +9,7 @@ class Home extends JI_Controller{
 	}
 	public function index(){
 		$data = $this->__init();
-		$this->setTitle('Seme Address (ID) '.$this->site_suffix);
+		$this->setTitle('Seme Bank (ID) '.$this->site_suffix);
 		$this->setDescription($this->site_description);
 		$this->setKeyword($this->site_author);
 		$this->putThemeContent("home/home",$data);
