@@ -1,0 +1,52 @@
+{
+	"info": {
+		"_postman_id": "1360c0bf-dbd0-4027-a582-20e57eac1ddd",
+		"name": "TCA Bank",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Bank",
+			"item": [
+				{
+					"name": "Select2",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}api/select2/",
+							"host": [
+								"{{base_url}}api"
+							],
+							"path": [
+								"select2",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}api/get/",
+							"host": [
+								"{{base_url}}api"
+							],
+							"path": [
+								"get",
+								""
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		}
+	],
+	"protocolProfileBehavior": {}
+}
