@@ -6,7 +6,7 @@ Here is the version log:
 - 1.0.0 First Release
 
 ## Get started
-Start consuming the API by reading the [Docs](https://alamat.thecloudalert.com/)
+Start consuming the API by reading the [bank.thecloudalert.com](https://bank.thecloudalert.com/)
 
 ## Instalation
 Clone this repository
@@ -32,13 +32,13 @@ $sene_method = "PATH_INFO";//REQUEST_URI,PATH_INFO,ORIG_PATH_INFO,
 $db['host']  = "localhost";
 $db['user']  = "root";
 $db['pass']  = "";
-$db['name']  = "tca_alamat";
+$db['name']  = "tca_bank";
 $db['engine']= "mysqli"; //available mysql,mysqli,pdo
 ```
 
 
 ## How to use
-To use the API, you can open [postman.json](https://github.com/drosanda/address-id-api/blob/master/postman.json) on this project directory using [Postman](https://www.postman.com/downloads/).
+To use the API, you can open [postman.json](https://github.com/drosanda/bank-id-api/blob/master/postman.json) on this project directory using [Postman](https://www.postman.com/downloads/).
 
 ## Data Source
 Bank name and Location data obtained from [OJK](https://www.ojk.go.id/id/kanal/perbankan/data-dan-statistik/Documents/Nama%20dan%20Alamat%20Kantor%20Pusat%20Bank%20Juni%202021.xlsx).
