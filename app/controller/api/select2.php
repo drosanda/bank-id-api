@@ -13,7 +13,7 @@ class Select2 extends JI_Controller{
 
 		$keyword = $this->input->request("keyword");
     $keyword = trim(strip_tags($keyword));
-    if(strlen($keyword)<=1){
+    if(strlen($keyword)<=0){
   		$this->status = 200;
   		$this->message = 'Keyword too short';
     }else{
